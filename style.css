@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:aquamarine;
+  font-family:monospace;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color:coral;
+  color: #fff;
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.add:active {
+  transform: scale(0.96);
+}
+.ad:focus{
+  outline: 0;
+}
+
+.add:hover{
+background-color: #fff;
+color:coral;
+font-weight: 900;
+}
+
+
+.note {
+  background-color:floralwhite;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 20px;
+  height: 300px;
+  width: 300px;
+  overflow: scroll;
+  
+}
+
+.note .tools {
+  background-color:crimson;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.4rem;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  box-shadow: 5px 4px 3px 1px rgb(249, 118, 118);
+}
+
+.note textarea {
+  outline: none;
+  font-family:cursive;
+  font-size: 1.2rem;
+  border: none;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  word-spacing: 0.5rem;
+  
+}
+
+.main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
